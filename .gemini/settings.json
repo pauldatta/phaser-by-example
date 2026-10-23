@@ -1,5 +1,4 @@
 {
-  "theme": "Dracula",
   "mcpServers": {
     "context7": {
       "httpUrl": "https://mcp.context7.com/mcp"
@@ -10,7 +9,13 @@
         "-y",
         "@peng-shawn/mermaid-mcp-server"
       ]
+    },
+     "chrome-devtools": {
+      "command": "npx",
+      "args": ["chrome-devtools-mcp@latest"]
     }
-    
+  },
+  "ui": {
+    "theme": "Dracula"
   }
 }

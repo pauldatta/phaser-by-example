@@ -1,0 +1,29 @@
+{
+  "name": "turbotrails",
+  "productName": "Turbo Trails",
+  "version": "0.0.1",
+  "description": "A top-down racing game for Phaser by Example",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "phaser": "^3.80.1"
+  },
+  "devDependencies": {
+      "terser": "^5.28.1",
+      "vite": "^5.1.4"
+  },
+  "repository": {
+    "url": "https://github.com/phaserjs/phaser-by-example"
+  },
+  "license": "MIT",
+  "keywords": [
+    "phaser",
+    "games",
+    "book",
+    "pello",
+    "racing"
+  ]
+}
